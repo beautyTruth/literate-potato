@@ -49,3 +49,14 @@
 /*
 my code below
 */
+
+const celsiusInput = document.querySelector("#celsius");
+const fahrenheitInput = document.querySelector("#fahrenheit");
+const kelvinInput = document.querySelector("#kelvin");
+const tempInputs = document.querySelectorAll("input");
+
+tempInputs.forEach((boobies) => {
+  boobies.addEventListener("input", (e) => {
+    let temperatureValue = parseInt(e.target.value);
+  });
+});
